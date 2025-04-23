@@ -6,7 +6,7 @@ import asyncio
 
 Base = declarative_base()
 
-SQLALCHEMY_DATABASE_URL = "postgresql+asyncpg://postgres:Hayk1234@localhost/FastAPINetflix"
+SQLALCHEMY_DATABASE_URL = "postgresql+asyncpg://postgres:new_password@localhost:5050/postgres"
 
 engine = create_async_engine(SQLALCHEMY_DATABASE_URL)
 
